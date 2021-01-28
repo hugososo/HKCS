@@ -1,0 +1,22 @@
+#registerMain {
+    margin: 4rem 0;
+}
+
+main div div div form input {
+    margin: 1rem;
+}
+
+input[type="checkbox"] {
+    margin-top: 0;
+}
+
+.labelcolor{
+    color: rgb(78, 78, 78);
+    transition: all 0.3s ease;
+    cursor: pointer;
+}
+
+.labelcolor:hover{
+    color: darkcyan;
+    transform: scale(1.1);
+}

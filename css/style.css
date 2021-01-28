@@ -1,0 +1,80 @@
+* {
+    scroll-behavior: smooth;
+    outline: none;
+}
+
+body {
+    padding-bottom: 2rem;
+}
+
+h1,h2,h3,h4,h5,h6 {
+    font-family: 'Noto Sans', sans-serif;
+}
+
+p {
+    font-family: 'Open Sans', sans-serif;
+}
+
+.orangebtn {
+    background: #ff7b53;
+    color: rgb(255, 255, 255);
+    padding: 9px 26px;
+    border-radius: 20px;
+    border: 0px;
+    outline: none;
+}
+
+
+header nav img {
+    width: 30px
+}
+
+header nav  div li {
+    list-style-type: none;
+    color:rgb(83, 83, 83);
+}
+
+.dropdown-item {
+    display: block;
+    width: 100%;
+    padding: 0.25rem 1rem;
+    clear: both;
+    font-weight: 100;
+    color: #4d4d4d;
+    text-align: inherit;
+    white-space: nowrap;
+    background-color: transparent;
+    border: 0;
+    font-size: 1;
+}
+
+.dropdown-item:hover{
+    color: darkorange;
+}
+
+.dropdown-item:active{
+    background-color: rgb(253, 179, 40);
+    color: white;
+}
+
+.featurette-divider {
+    margin: 4rem 0;
+}
+
+.fa-star:checked {
+    color: orange;
+}
+
+.nav-link:hover {
+    border-bottom: 2px solid orange;
+}
+
+.top-2 {
+    margin-top: 3rem;
+}
+
+/* Show the shopping cart info  hover */
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+

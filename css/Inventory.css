@@ -1,0 +1,160 @@
+h1,h2,h3,h4,h5,h6{
+  font-family: 'Noto Sans', sans-serif;
+  padding: 0px;
+  margin-bottom: 10px;
+}
+
+h1{
+  margin-bottom: 20px;
+  margin-top: 15px;
+}
+
+.featurette-divider{
+  margin-top: 0.85rem;
+}
+
+div, p{
+  padding: 0px;
+  margin-bottom: 0;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+p{
+  font-family: 'Open Sans', sans-serif;
+}
+
+.div-divider{
+  padding-top: 5px;
+  border-top: 1px solid rgba(63, 90, 64, 0.87);
+}
+
+
+#editInvent .col-md-8{
+  padding: 0px;
+  margin-bottom: 0;
+}
+
+
+#editInvent .col-md-1{
+  margin-bottom: 10px;
+}
+
+#editInvent .row{
+  margin-bottom: 5px;
+}
+
+.filter-row{
+  margin-bottom: 15px;
+}
+
+.bold-desc{
+  font-weight: 800;
+  margin-bottom: 5px;
+}
+
+
+.desc-tag-s{
+  font-size: 14px;
+  font-weight: 400;
+  margin-bottom: 5px;
+}
+
+#editInvent .form-control{
+  font-size: 16px;
+  font-weight: 400;
+  text-align: center;
+}
+
+#editInvent .form-control-plaintext{
+  text-align: center;
+  border: 1px solid grey;
+  border-radius: 3px;
+}
+
+#editInvent .btn-danger{
+  margin-top: 15px;
+  width: 60%;
+}
+
+#editInvent .filter-row{
+  margin-bottom: 0;
+}
+
+.pro-avail{
+  padding: 0px 12px;
+}
+
+
+@media only screen and (max-width: 1200px) {
+  h3{
+    font-size: 25px;
+  }
+}
+
+@media only screen and (max-width: 995px) {
+  #editInvent .btn-danger{
+    font-size: 16px;
+    padding: 10px 2px;
+  }
+  
+  #editInvent .col-md-6{
+    padding: 0px;
+  }
+  
+  #editInvent .input-group-text{
+    padding: 0px 3px;
+  }
+  
+  #editInvent .form-control{
+    padding: 0px 3px ;
+  }
+  
+  #editInvent .col-md-4, .col-md-5, .col-md-3{
+    padding: 0px 3px;
+  }
+}
+
+@media only screen and (max-width: 760px) {
+  .desc-tag-s{
+    font-size: 18px;
+  }
+  
+  .bold-desc{
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+  
+  #editInvent .btn-danger{
+    font-size: 18px;
+  }
+  
+  #editInvent .input-group-text{
+    padding: 0px 15px;
+  }
+  
+  #editInvent .col-md-1{
+    width: 25%;
+    margin:auto;
+  }
+  
+  #editInvent .filter-row .col-md-4{
+    width: 40%;
+    margin-bottom: 30px;
+    padding: 0px 10px;
+  }
+  
+  #editInvent .row{
+    margin-left: 3px;
+    width:100%
+  }
+  
+  .pro-avail {
+    width: 100%;
+    display: block;
+    padding: 6px 12px;
+  }
+  
+}

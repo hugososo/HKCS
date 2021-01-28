@@ -1,0 +1,15 @@
+p {
+    margin: 0;
+}
+
+.list-group {
+    list-style-type: none;
+}
+
+.featurette-divider {
+    margin-top: 15rem;
+}
+
+#savedmsg {
+    display: none;
+}

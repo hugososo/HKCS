@@ -1,0 +1,58 @@
+.instock {
+  color: green;
+  font-size: 0.85rem;
+}
+
+.outstock {
+  color: red;
+  font-size: 0.85rem;
+}
+
+.bt-cart {
+  width: 80%;
+}
+
+.price-tag {
+  height: 60%;
+}
+
+.price-tag .col-md-7,
+.col-md-5 {
+  padding: 0;
+}
+
+.bold-desc-for-shop{
+  color: rosybrown;
+  font-size: 20px;
+}
+
+
+@media only screen and (max-width: 760px) {
+
+  .hide {
+    display: none;
+  }
+
+  .col-md-6 {
+    width: 100%;
+  }
+
+  .col-md-6 > * {
+    margin: 10px;
+  }
+
+  .outstock,
+  .instock {
+    font-size: 1.2rem;
+  }
+
+  .btn-outline-dark {
+    width: 80%;
+    font-size: 20px;
+  }
+
+  .prd-name {
+    font-size: 30px;
+  }
+
+}

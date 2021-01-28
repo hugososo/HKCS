@@ -1,0 +1,68 @@
+.card-img-top {
+    width: 100%;
+    height: 18rem;
+    object-fit: scale-down;
+}
+
+#intro .jumbotron {
+    height: 65vh;
+    overflow: hidden;
+    position: relative;
+}
+
+#intro h1 {
+    font-size: 60px;
+    font-weight: 800;
+    line-height: 1.5;
+    color: white;
+    transition: all 0.3s ease;
+}
+
+#intro h1:hover {
+    transform: scale(1.1);
+    color: white;
+}
+
+#intro p {
+    color: white;
+    font-weight: 300;
+}
+
+
+video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 150vh;
+    min-width: 100%;
+}
+
+#intro .container {
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+
+.checked {
+    color: orange;
+}
+
+main div .container {
+    margin-bottom: 10px;
+}
+
+
+.btn-info {
+    margin-right: 10px;
+}
+
+.qty {
+    margin-bottom: 1rem;
+    max-width: 7rem;
+    position: relative;
+}
+
+.cartBorder {
+    border-radius: 15px;
+}
